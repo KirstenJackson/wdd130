@@ -1,0 +1,62 @@
+
+
+body{
+    background-color: pink;
+}
+
+
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.portrait {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+section.top{
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+
+ol{
+    font-family: Arial;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+li{
+    padding: 0.5em 0;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.quote{
+    font-family: serif;
+}
+
+figure{
+    text-align: center;
+}
+
+blockquote{color: white;
+    font-size: 250%;
+
+}
+
+figcaption{
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#title:hover{
+    color:black;
+}
