@@ -1,0 +1,30 @@
+.title{
+
+    background-image: url("ice/images/w05_circles.jpg");
+    background-repeat: no-repeat;
+    background-color: grey;
+    
+
+    font-family: sans-serif;
+    font-stretch: semi-condensed;
+}
+
+.title h1{
+    font-size: xx-large;
+    color: black;
+}
+.title h2{
+    color: darkslategray;
+}
+
+#images{
+    background-color: grey;
+    display: inline;
+}
+
+#images ol img{
+    size: 50%;
+    
+}
+
+
