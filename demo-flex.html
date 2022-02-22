@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Demo</title>
+
+    <style>
+        header {
+            background-color: #d4966d;
+        }
+
+        a{
+            color: #5e351a;
+            text-decoration: none;
+            padding: 0.8rem;
+            display: inline-block; /* keeps it inline but honors the padding */
+            
+        }
+
+        a:hover{
+            color: #d4966d;
+            background-color:#5e351a ;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around; /* space-around, space-between, and space-evenly are other options */
+            /* flex-wrap: wrap; */
+
+        }
+
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-container section{
+            flex: 200px;
+            border: 1px solid black;
+            padding: 1em;
+            
+
+        }
+
+
+        /* media queries should always be last */
+        @media screen and (max-width: 400px) { 
+            nav{
+                flex-direction: column;
+                /* when a screen is smallet than 400px wide, the menu will change from horizontal to verticle */
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href="#">Page 1</a>
+            <a href="#">Page 2</a>
+            <a href="#">Page 3</a>
+            <a href="#">Page 4</a>
+            <a href="#">Page 5</a>
+
+        </nav>
+    </header>
+    <main>
+        <h1>Flex Demo</h1>
+        <div class="flex-container">
+            <section>
+                <h2>Section 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laboriosam fugit, impedit animi ab repellendus voluptas maiores consequuntur. Accusantium incidunt ipsum totam nostrum ad consequuntur voluptates, at labore maxime dolorum?</p>
+            </section>
+            <section>
+                <h2>Section 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laboriosam fugit, impedit animi ab repellendus voluptas maiores consequuntur. Accusantium incidunt ipsum totam nostrum ad consequuntur voluptates, at labore maxime dolorum?</p>
+            </section>
+            <section>
+                <h2>Section 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laboriosam fugit, impedit animi ab repellendus voluptas maiores consequuntur. Accusantium incidunt ipsum totam nostrum ad consequuntur voluptates, at labore maxime dolorum?</p>
+            </section>
+            <!-- shift - alt - down arrow to duplicate a selected section -->
+        </div>
+    </main>
+
+</body>
+</html>
