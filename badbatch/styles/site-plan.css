@@ -4,25 +4,16 @@ Fonts are separated by a | */
 
 @font-face {
   font-family: 'distant_galaxyregular';
-  src: url('fonts/DISTGRG_-webfont.eot');
-  src: url('fonts/DISTGRG_-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/DISTGRG_-webfont.woff2') format('woff2'),
-       url('fonts/DISTGRG_-webfont.woff') format('woff'),
-       url('fonts/DISTGRG_-webfont.ttf') format('truetype'),
-       url('fonts/DISTGRG_-webfont.svg#distant_galaxyregular') format('svg');
+  src: url('fonts/DISTGRG_-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
+/* C:\Users\krstn\.vscode\wdd130\badbatch\styles\fonts\Distant-Galaxy-fontfacekit */
 
 @font-face {
   font-family: 'droid_sans_monoregular';
-  src: url('fonts/DroidSansMono-webfont.eot');
-  src: url('fonts/DroidSansMono-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/DroidSansMono-webfont.woff2') format('woff2'),
-       url('fonts/DroidSansMono-webfont.woff') format('woff'),
-       url('fonts/DroidSansMono-webfont.ttf') format('truetype'),
-       url('fonts/DroidSansMono-webfont.svg#droid_sans_monoregular') format('svg');
+  src: url('fonts/DroidSansMono-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
