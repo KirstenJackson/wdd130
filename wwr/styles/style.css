@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Megrim&display=swap');
 
 
-
+ 
 
 
 .home-title{
@@ -273,3 +273,20 @@ main section img{
         margin-top: 25px;
     }
 }
+
+/* rivers.html */
+
+.title {
+    font-family: Megrim;
+    font-size: xx-large;
+    padding-left: 5px;
+}
+
+#rivers-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#rivers-grid h2{
+    font-family: Megrim;
+}
+
