@@ -1,0 +1,33 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.home-grid {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.cakes, .bread {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cakes img, .bread img {
+    grid-column: 1/2;
+}
+.cakes .text, .bread .text {
+    grid-column: 2/3;
+}
+
+.treats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.treats img {
+    grid-column: 2/3;
+}
+.treats .text {
+    grid-column: 1/2;
+}
