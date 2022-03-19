@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'distant_galaxyregular';
+    src: url('fonts/DISTGRG_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+@font-face {
+    font-family: 'droid_sans_monoregular';
+    src: url('fonts/DroidSansMono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+/*header css*/
+
+/*logo css*/
+#logo {
+  position: relative;
+}
+
+#logo h1{
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  font-family: 'distant_galaxyregular';
+  color: white;
+  letter-spacing: .25rem;
+  display: block;
+  width: 28%;
+  margin: 0 auto;
+  border: 1px solid white;
+  
+}
+
+#logo img {
+  width: 100%;
+}
+
+/*nav css*/
+
+/*search bar css*/
+
+
+/*main css*/
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  color: white;
+}
+
+/*hero*/
+#hero {
+  grid-column: 1/4;
+}
+
+#hero h1{
+  font-family: 'distant_galaxyregular';
+  letter-spacing: .2rem;
+}
+
+#hero h3{
+  font-family: 'droid_sans_monoregular';
+}
+
+#hero img {
+  width: 100%;
+}
+
+/*three columns*/
+.intros h3 {
+  font-family: 'distant_galaxyregular';
+  color: white;
+  letter-spacing: .2rem;
+}
+
+.intros p{
+  font-family: 'droid_sans_monoregular';
+  color: white;
+}
+
+.intros img {
+  width: 50%;
+  /* border: 1px solid white; */
+  padding: .15rem;
+  background-color: white;
+}
+
+/*footer*/
+footer {
+  font-family: 'droid_sans_monoregular';
+}
