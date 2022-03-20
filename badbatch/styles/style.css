@@ -14,25 +14,26 @@
   
   }
 
+
 /*header css*/
 
 /*logo css*/
+
+header {
+  background-color: black;
+}
+
 #logo {
   position: relative;
 }
 
 #logo h1{
   position: absolute;
-  top: 17px;
-  left: 50px;
+  top: 45px;
+  left: 550px;
   font-family: 'distant_galaxyregular';
   color: white;
   letter-spacing: .25rem;
-  display: block;
-  width: 28%;
-  margin: 0 auto;
-  border: 1px solid white;
-  
 }
 
 #logo img {
@@ -40,56 +41,118 @@
 }
 
 /*nav css*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a7382e;
+  display: flex;
+  justify-content: space-around;
 
-/*search bar css*/
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'droid_sans_monoregular';
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: black;
+  color: #a7382e;
+}
 
 
 /*main css*/
 .home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   background-color: black;
   color: white;
 }
 
 /*hero*/
 #hero {
+  position: relative;
   grid-column: 1/4;
+  grid-row: 1/2;
 }
 
 #hero h1{
+  position: absolute;
+  top: 400px;
+  left: 50px;
   font-family: 'distant_galaxyregular';
   letter-spacing: .2rem;
 }
 
 #hero h3{
   font-family: 'droid_sans_monoregular';
+  position: absolute;
+  top: 440px;
+  left: 50px;
+  color: #a7382e ;
 }
 
 #hero img {
   width: 100%;
 }
 
+
 /*three columns*/
+.intros {
+  padding: 1rem;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
 .intros h3 {
   font-family: 'distant_galaxyregular';
   color: white;
   letter-spacing: .2rem;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .intros p{
   font-family: 'droid_sans_monoregular';
   color: white;
+  text-align: center;
+  padding-top: .3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .intros img {
+  display: block;
   width: 50%;
-  /* border: 1px solid white; */
   padding: .15rem;
   background-color: white;
+  margin: 0 auto;
 }
+
+
 
 /*footer*/
 footer {
-  font-family: 'droid_sans_monoregular';
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'distant_galaxyregular';
+  letter-spacing: .1rem;
+  padding: 1rem;
+  background-color: #6C2620;
+}
+
+.social {
+  grid-column: -1;
 }
